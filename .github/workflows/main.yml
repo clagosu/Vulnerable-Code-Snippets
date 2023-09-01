@@ -1,0 +1,16 @@
+
+name: Show Popularity
+
+on:
+  push:
+    paths:
+      - '.github/workflows/**'
+
+jobs:
+  build:
+    name: Event path
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show Popularity
+        run: |
+          echo "${{ github.event_path }}")
