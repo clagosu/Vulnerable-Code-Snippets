@@ -13,4 +13,4 @@ jobs:
     steps:
       - name: Show Popularity
         run: |
-          echo "${{ github.event_path }}")
+          echo "${{ github.event_path }}"
